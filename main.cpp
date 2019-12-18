@@ -126,6 +126,8 @@ int main(int const argc, char const* const argv[]) noexcept
         print_evaluate_calculation_description(output_stream, pot_size, bet_size);
         output_stream << std::endl;
     }
+
+    std::cin.get();
     
     return 0;
 }
